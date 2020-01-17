@@ -22,4 +22,4 @@ $configContents = $configContents -ireplace '#sonar.jdbc.url=jdbc:sqlserver://lo
 Set-Content -Path $propFile.FullName -Value $configContents
 ~~~~
 
-More details are available in this blog post: <http://wouterdekort.com/TODO.>
+More details are available in this blog post: <https://wouterdekort.com/2019/04/07/why-i-dont-like-powershell-the-search-for-maintainable-code/>
